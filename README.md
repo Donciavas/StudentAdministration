@@ -2,6 +2,10 @@
 
 .NET 6 core
 
+Task description
+
+The task is to create a simplified model of student administration in higher education. The student administration system must keep track of study programs and subjects, study program structure, students and student enrollments in a particular higher education institution. A higher education institution can have multiple study programs they teach. Each study program is composed of multiple subjects. Each subject can be composed of multiple sub subjects and this structure could continue indefinitely into the depth. Each study program and subject have unique code, name and credits. Students can enroll to a particular study program every year. Student can only have one active enrollment at a time at the same institution. 
+
 Result of the program code files and database script is in file 'StudentAdministrationDB_CreateFile.sql'. Just copy paste to SQL server database query.
 
 in order to create new database, if needed, write 'Update-Database' in npm console.
@@ -22,7 +26,3 @@ NuGet packages were used:
 4) Microsoft.EntityFrameworkCore.Tools version 7.0.0
 
 5) Swashbuckle.AspNetCore version 6.4.0
-
-Task description
-
-The task is to create a simplified model of student administration in higher education. The student administration system must keep track of study programs and subjects, study program structure, students and student enrollments in a particular higher education institution. A higher education institution can have multiple study programs they teach. Each study program is composed of multiple subjects. Each subject can be composed of multiple sub subjects and this structure could continue indefinitely into the depth. Each study program and subject have unique code, name and credits. Students can enroll to a particular study program every year. Student can only have one active enrollment at a time at the same institution. 
