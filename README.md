@@ -24,4 +24,4 @@ NuGet packages were used:
 
 4) Microsoft.EntityFrameworkCore.Tools version 7.0.0
 
-5) Swashbuckle.AspNetCore version 6.4.0
+5) Swashbuckle.AspNetCore version 6.4.0 
